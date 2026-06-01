@@ -1,0 +1,25 @@
+/* Alternating section backgrounds */
+.about { background: var(--bg-primary); }
+.skills { background: var(--bg-secondary); }
+.experience { background: var(--bg-primary); }
+.education { background: var(--bg-secondary); }
+.contact { background: var(--bg-primary); }
+
+/* Section dividers via subtle gradients */
+.skills, .education {
+  position: relative;
+}
+.skills::before, .education::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+}
+.skills::after, .education::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+}
