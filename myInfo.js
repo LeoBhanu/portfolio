@@ -132,7 +132,7 @@ export const EXPERIENCES = [
     stack: ['React', 'React Native', 'Node.js', 'FastAPI', 'AWS', 'AntD'],
     metric: { value: '35%', label: 'Faster UI Dev' },
     highlights: [
-      'Leading a cross-functional team of 6 devs, 2 QA, 1 BA delivering 3 admin portals + iOS/Android app for US healthcare clients',
+      'Managed and coordinated a cross-functional team of 10+ to develop and launch 3+ administrative portals and a mobile application serving U.S. healthcare clients.',
       'Built FastAPI & Node.js backends for user management, order processing, and reporting modules',
       'Designed multi-level admin portals for bulk lab order management with real-time performance dashboards',
       'Created a reusable AntD component library reducing frontend dev time by ~35%',
@@ -164,7 +164,7 @@ export const EXPERIENCES = [
     stack: ['React', 'React Native', 'REST APIs'],
     metric: { value: '30%', label: 'Order Efficiency' },
     highlights: [
-      'Led a team of 2 junior devs building cross-platform mobile apps and admin web portal',
+      'Coordinated with a team of 4+ junior devs building cross-platform mobile apps and admin web portal',
       'Built distributor–retailer order management apps with bulk orders, delivery tracking, and inventory control',
       'Improved order processing efficiency by 30% through streamlined workflows',
       'Built a centralized admin panel from scratch integrating analytics and automated status updates',
